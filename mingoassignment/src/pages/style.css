@@ -1,0 +1,45 @@
+.loginform {
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 20px 60px 0px gray;
+    width: 485px;
+    height: 532px;
+    border-radius: 9px;
+    color: #555555;
+    font-weight: 500;
+}
+.login-form-container{
+    margin: 2rem;
+}
+.loginform p{
+    font-weight: 500;
+    text-align: center;
+}
+.form label{
+    display: grid;
+}
+.form input{
+    background-color: #F6F6F7;
+    border: none;
+    outline: none;
+    padding: 15px;
+    width: 384px;
+    border-radius: 4px;
+}
+.form button{
+    background-color: #457C10;
+    width: 414px;
+    padding: 12px;
+    color: #fff;
+}
+.resendcode{
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+}
+.resendcode a{
+    color: #457C10;
+}
