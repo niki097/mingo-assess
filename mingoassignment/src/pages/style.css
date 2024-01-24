@@ -43,3 +43,77 @@
 .resendcode a{
     color: #457C10;
 }
+
+/* ----------------------------------sidebar */
+.profilediv{
+    background: #F5F5F5;
+    height: 100vh;
+}
+.sidebar{
+    width: 200px;
+}
+.usericon{
+    display: flex;
+    color: #fff;
+    justify-content: start;
+    align-items: center;
+    padding: 1rem .5rem;
+    background-color: #000;
+   margin: 0 1rem;
+}
+.usericon span{
+    background-color: #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.usericon span img{
+    height: 50px;
+}
+.usericon .userName h3{
+    margin: 0;
+    padding-left: 1rem;
+}
+#sidebar-links {
+    height: 100%;
+    width: 340px;
+   background-color: #fff;
+    padding-top: 20px;
+  }
+
+  #sidebar-links a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    display: flex;
+    gap: 8px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+  }
+
+  #sidebar-links a:hover {
+    background-color: #cdcdcd;
+  }
+
+  .dropdown-btn {
+    padding: 15px;
+    font-size: 18px;
+    display: block;
+    border: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+
+  .dropdown-container {
+    display: none;
+    padding-left: 15px;
+  }
+
+  .dropdown-content a {
+    padding: 15px;
+    text-decoration: none;
+    font-size: 16px;
+    display: block;
+  }
+
